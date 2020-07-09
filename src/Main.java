@@ -1,11 +1,15 @@
 
 public class Main {
 	public static void main(String[] args) {
-		int age = 30;
-		System.out.println("私の年齢は"+ age +"歳です");
-		age = 24;
-		System.out.println("嘘をつきました。本当は"+ age +"歳です");
-		final int num = 5;
-		// int num = 4; 書き換えることができないためエラーになる。
+		int a = 3;
+		int b = 5;
+		int c = a*b;
+		System.out.println("縦幅"+ a +"cm横幅"+ b + "cmの長方形の面積は" + c +"㎠");
+
+		boolean result = true;
+		char kanji = '駆';
+		double pi = 3.14;
+		long num = 314159265853979L;
+		String attack = "湊の攻撃！敵に15ポイントのダメージを与えた！";
 	}
 }
