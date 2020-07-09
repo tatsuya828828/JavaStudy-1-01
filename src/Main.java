@@ -1,9 +1,11 @@
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("RPG: スッキリ魔王征伐");
-		System.out.println("Ver.0.1 by 湊");
-		System.out.println("<ただいま鋭意学習・制作中>");
-		System.out.println("プログラムを終了します");
+		int age = 30;
+		System.out.println("私の年齢は"+ age +"歳です");
+		age = 24;
+		System.out.println("嘘をつきました。本当は"+ age +"歳です");
+		final int num = 5;
+		// int num = 4; 書き換えることができないためエラーになる。
 	}
 }
